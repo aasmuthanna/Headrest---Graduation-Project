@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".piechart">
+
+
+    <ImageView
+        android:id="@+id/goback"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="417dp"
+        android:layout_height="632dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="-6dp">
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/locationPieChart"
+            android:layout_width="match_parent"
+            android:layout_height="94dp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/activityPieChart"
+            android:layout_width="match_parent"
+            android:layout_height="96dp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/painPieChart"
+            android:layout_width="match_parent"
+            android:layout_height="109dp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/hoursPieChart"
+            android:layout_width="match_parent"
+            android:layout_height="102dp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/statePieChart"
+            android:layout_width="match_parent"
+            android:layout_height="122dp" />
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/lightPieChart"
+            android:layout_width="match_parent"
+            android:layout_height="110dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

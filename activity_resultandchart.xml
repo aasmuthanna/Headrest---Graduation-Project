@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".resultandchart">
+
+    <ImageView
+        android:id="@+id/goback"
+        android:layout_width="81dp"
+        android:layout_height="70dp"
+
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="103dp"
+        android:layout_height="91dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/headrest" />
+
+
+
+    <Button
+        android:id="@+id/barchart"
+        android:layout_width="315dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="444dp"
+        android:backgroundTint="@color/button_color"
+        android:foregroundTint="#63507B"
+        android:onClick="login1"
+        android:text="See Bar chart"
+        android:textSize="22sp"
+        app:iconTint="#63507B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="#63507B" />
+
+    <Button
+        android:id="@+id/piechart"
+        android:layout_width="315dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="324dp"
+        android:backgroundTint="@color/button_color"
+        android:foregroundTint="#63507B"
+        android:onClick="login1"
+        android:text="See Pie chart"
+
+        app:iconTint="#63507B"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/barchart"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="#63507B" />
+
+    <Button
+        android:id="@+id/result"
+        android:layout_width="315dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="208dp"
+        android:backgroundTint="@color/button_color"
+        android:foregroundTint="#63507B"
+        android:onClick="login1"
+        android:text="My Result"
+        android:textSize="22sp"
+        app:iconTint="#63507B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/piechart"
+        app:layout_constraintVertical_bias="1.0"
+        app:strokeColor="#63507B" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="440dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="504dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pp3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

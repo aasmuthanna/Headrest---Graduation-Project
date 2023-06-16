@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".send_email2"
+            android:exported="false" />
+        <activity
+            android:name=".huda_easult_and_chart"
+            android:exported="false" />
+        <activity
+            android:name=".huda_piechart"
+            android:exported="false" />
+        <activity
+            android:name=".huda_result"
+            android:exported="false" />
+        <activity
+            android:name=".hudabarchart"
+            android:exported="false" />
+        <activity
+            android:name=".send_email"
+            android:exported="false" />
+        <activity
+            android:name=".App_Intro"
+            android:exported="false" />
+        <activity
+            android:name=".app_intro2"
+            android:exported="false" />
+        <activity
+            android:name=".app_intro3"
+            android:exported="false" />
+        <activity
+            android:name=".get_users"
+            android:exported="false" />
+        <activity
+            android:name=".fatibarchar"
+            android:exported="false" />
+        <activity
+            android:name=".fati_result_and_chart"
+            android:exported="false" />
+        <activity
+            android:name=".fati_result"
+            android:exported="false" />
+        <activity
+            android:name=".fati_piechart"
+            android:exported="false" />
+        <activity
+            android:name=".send_email"
+            android:exported="false" />
+        <activity
+            android:name=".doctor_mainpage"
+            android:exported="false"
+            android:label="@string/title_activity_doctors_login"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".UserProfile"
+            android:exported="false" />
+        <activity
+            android:name=".doctors_signup"
+            android:exported="false" />
+        <activity
+            android:name=".update_doctorprofile"
+            android:exported="false" />
+        <activity
+            android:name=".update_userprofile"
+            android:exported="false" />
+        <activity
+            android:name=".piechart"
+            android:exported="false" />
+        <activity
+            android:name=".resultandchart"
+            android:exported="false" />
+        <activity
+            android:name=".result"
+            android:exported="false" />
+        <activity
+            android:name=".barchart"
+            android:exported="false" />
+        <activity
+            android:name=".chart"
+            android:exported="false" />
+        <activity
+            android:name=".contact_admin"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".Users"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light" />
+        <activity
+            android:name=".form"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light" />
+        <activity
+            android:name=".doctors_login"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light" />
+        <activity
+            android:name=".user_mainpage"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light" />
+        <activity
+            android:name=".hello_user"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light" />
+        <activity
+            android:name=".forgetpassword"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light" />
+        <activity
+            android:name=".MainSignup"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light" />
+        <activity
+            android:name=".doctor"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
